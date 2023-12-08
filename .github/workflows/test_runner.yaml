@@ -9,6 +9,7 @@ jobs:
   test_job:
     # If you change this job, please also change it in
     # build_runner.yaml (and see comments there for explanation)
+    if: github.ref_type == 'branch'
     runs-on: ubuntu-latest
     name: Test notebooks are runnable and up-to-date
     steps:

@@ -6,6 +6,7 @@ on:
 
 jobs:
   build:
+    if: github.ref_type == 'branch' 
     runs-on: windows-latest
     name: Build windows executable for running notebook
     steps:
