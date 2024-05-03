@@ -505,7 +505,7 @@ tornado==6.4
     #   jupyterlab
     #   notebook
     #   terminado
-tqdm==4.66.2
+tqdm==4.66.3
     # via -r requirements.in
 traitlets==5.14.3
     # via
